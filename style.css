@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+
+
+body {
+    background: url(images/pattern-curve.svg) no-repeat;
+    background-position: bottom left;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+article{
+    display: flex;
+    width: 73rem;
+    align-items: center;
+    background: url(images/pattern-bg.svg) no-repeat;
+    background-position: right;
+    overflow: visible;
+}
+
+.article-1{
+    position: absolute;
+    opacity:1;
+}
+
+.article-2{
+    position: absolute;
+    opacity: 0;
+}
+
+.text-content{
+    position: relative;
+    left: 5em;
+    background: url(images/pattern-quotes.svg) no-repeat;
+    background-position: 4em 0em;
+}
+
+.text-content>h1{
+    font-size: 2em;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+.person{
+    box-shadow: 13px 20px 20px 5px rgba(0,0,0,0.12);
+}
+
+
+.buttons{
+    display: flex;
+    position: relative;
+    left: 4em;
+    bottom: 2em;
+}
+
+button{
+    float: left;
+    border: none;
+    height: 3.3rem;
+    width: 3.6rem;
+    background: white;
+
+    
+}
+
+.arrow {
+    border: solid hsl(240, 18%, 77%);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+}
+  
+.button-left{
+    border-radius: 25px 0 0px 25px;
+}
+.button-right{
+    border-radius: 0 25px 25px 0px ;
+}
+
+
+
+
